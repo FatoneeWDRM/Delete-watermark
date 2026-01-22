@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: hsl(222.2 84% 4.9%);
+  --color-foreground: hsl(210 40% 98%);
+  --color-primary: hsl(217.2 91.2% 59.8%);
+  --color-secondary: hsl(217.2 32.6% 17.5%);
+}
+
+/* 
+   Tailwind v4 doesn't need @layer base for variables as much, 
+   but we can keep :root for Shadcn-like variables if we map them manually.
+   For now, simple reset.
+*/
+:root {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
