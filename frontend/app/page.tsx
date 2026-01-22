@@ -23,9 +23,16 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center bg-background text-foreground py-10">
       <header className="mb-10 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-2 bg-gradient-to-r from-blue-400 to-purple-600 text-transparent bg-clip-text">
-          Magic Watermark Remover
+          Watermark Remover
         </h1>
-        <p className="text-muted-foreground">Upload and vanish!</p>
+        <p className="text-muted-foreground">ข้อกำจัดนะครับอ้ายๆ!
+          <br />
+          แนะนำไม่เกิน 4K (3840 x 2160 pixels)
+          <br />
+          ขนาดไฟล์ 5MB - 10MB
+          <br />
+          ใช้ server ฟรีเลยทำให้ข้อจำกัดขนาดและความกว้างของรูปจำกัด เนื่องจากของฟรี RAM น้อย
+        </p>
       </header>
 
       {!imageFile ? (
