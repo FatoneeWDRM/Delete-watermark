@@ -25,7 +25,7 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-2 bg-gradient-to-r from-blue-400 to-purple-600 text-transparent bg-clip-text">
           Watermark Remover
         </h1>
-        <p className="text-muted-foreground">ข้อกำจัดนะครับอ้ายๆ!
+        <p className="text-muted-foreground">ข้อกำจัดนะครับอ้ายๆ! หากไม่มีคนใช้ภายใน 15 นาที ระบบจะหลับเมื่อและทำการลบลายน้ำอาจจะใช้เวลา 20วิ - 1นาที By น้องต่อจุ้ปๆ
           <br />
           แนะนำไม่เกิน 4K (3840 x 2160 pixels)
           <br />
